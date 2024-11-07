@@ -1,6 +1,6 @@
 function Footer() {
     return (
-        <footer>
+        <footer className="my-4">
             <p>Rodapé - Projeto</p>
         </footer>
     );

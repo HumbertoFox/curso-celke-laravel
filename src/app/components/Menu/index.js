@@ -2,10 +2,14 @@ import Link from "next/link";
 
 function Menu () {
     return (
-        <nav>
+        <nav className="my-4">
             <ul>
                 <li>
                     <Link href="/" className="text-blue-500">Home</Link>
+                </li>
+
+                <li>
+                    <Link href="/courses" className="text-blue-500">Cursos</Link>
                 </li>
 
                 <li>
